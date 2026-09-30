@@ -1,0 +1,28 @@
+{
+    "timestamp": "2026-09-30T18:43:01.249426",
+    "scan_data": {
+        "target": "scanme.nmap.org",
+        "open_ports": [
+            {
+                "port": 22,
+                "status": "OPEN",
+                "service": "SSH"
+            },
+            {
+                "port": 80,
+                "status": "OPEN",
+                "service": "HTTP"
+            }
+        ],
+        "headers_audit": {
+            "missing": [
+                "Strict-Transport-Security",
+                "X-Content-Type-Options",
+                "X-Frame-Options",
+                "Content-Security-Policy",
+                "X-XSS-Protection"
+            ],
+            "present": {}
+        }
+    }
+}
